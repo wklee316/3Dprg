@@ -40,12 +40,17 @@ Vertex transformedCircle[360];
 Transform transform;  
 
 
-
+//<문제>////////전역변수 쓰는곳////////////////////////////////////////////////////////////
 
 Transform objTransform;
 int frame = 1;
 bool is_big = false;
 float scale = 1;
+
+
+ //////////////////////////////////////////////////////////////////////////////////////////
+
+
 
 
 void Init();
@@ -150,6 +155,17 @@ void Update()
 {
     while (!glfwWindowShouldClose(window))
     {
+        
+
+        //Update로직
+       //<문제>//////////////////////////////////////////////////////////////////////////////////
+
+       //1. translate 를 프레임당 오른쪽으로 0.001씩 누적시켜서 물체를 이동해보세요.
+       //2. Rotation 을 프레임당 1도씩 누적시켜서 물체를 회전시켜보세요.
+       //3. Scale은 초당 0.01씩 최대 1.3배까지 늘어났다가 0.7배까지 줄어들도록 만드시오 (반복)
+       //   (1.3배 이상이 되면 줄어들고 0.7배 이하가 되면 다시 늘어나게 만드시오)
+
+
         float translateX = 0.001 * frame;
         objTransform.translate = glm::mat3(
             1, 0, 0,
@@ -182,6 +198,20 @@ void Update()
         );
 
 
+        for (int i = 0; i < 360; i++)
+        {
+            transformedCircle[i].pos = transform.translate * objTransform.translate * transform.rotation * objTransform.rotation * transform.scale * objTransform.scale * circle[i].pos;
+        }
+
+        for (int i = 0; i < 5; i++)
+        {
+            transformedStar[i].pos = transform.translate * objTransform.translate * transform.rotation * objTransform.rotation * transform.scale * objTransform.scale * star[i].pos;
+        }
+
+
+        frame++;
+       //////////////////////////////////////////////////////////////////////////////////////////
+
 
 
         for (int i = 0; i < 360; i++)
@@ -194,7 +224,6 @@ void Update()
             transformedStar[i].pos = transform.translate * objTransform.translate * transform.rotation * objTransform.rotation * transform.scale * objTransform.scale * star[i].pos;
         }
 
-        frame++;
 
         glClearColor(.0f, 0.0f, 0.0f, 0.1f);
         glClear(GL_COLOR_BUFFER_BIT);
