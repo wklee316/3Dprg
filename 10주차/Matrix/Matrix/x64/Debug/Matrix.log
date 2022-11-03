@@ -1,0 +1,4 @@
+﻿  main.cpp
+E:\3Dprg\10주차\Matrix\Matrix\MuSoenMath.h(28,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'mat3' 왼쪽은 무시됩니다.
+E:\3Dprg\10주차\Matrix\Matrix\MuSoenMath.h(48,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'vec3' 왼쪽은 무시됩니다.
+  Matrix.vcxproj -> E:\3Dprg\10주차\Matrix\x64\Debug\Matrix.exe
