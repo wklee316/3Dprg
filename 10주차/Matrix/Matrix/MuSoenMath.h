@@ -1,5 +1,4 @@
 #pragma once
-
 #define PI 3.141592						//원주율을 소수점 6자리까지 근사값으로 정의
 
 typedef struct mat3 {					//float 자료형을 가지는 2차원 행렬 구조체 선언
