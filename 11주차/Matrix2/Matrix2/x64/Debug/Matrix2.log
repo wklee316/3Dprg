@@ -1,0 +1,10 @@
+﻿  main.cpp
+E:\3Dprg\11주차\Matrix2\Matrix2\MuSoenMath.h(97,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'mat3' 왼쪽은 무시됩니다.
+E:\3Dprg\11주차\Matrix2\Matrix2\MuSoenMath.h(79,53): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\3Dprg\11주차\Matrix2\Matrix2\MuSoenMath.h(187,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'mat4' 왼쪽은 무시됩니다.
+E:\3Dprg\11주차\Matrix2\Matrix2\MuSoenMath.h(170,53): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\3Dprg\11주차\Matrix2\Matrix2\MuSoenMath.h(229,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'vec1x3' 왼쪽은 무시됩니다.
+E:\3Dprg\11주차\Matrix2\Matrix2\MuSoenMath.h(291,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'vec3' 왼쪽은 무시됩니다.
+E:\3Dprg\11주차\Matrix2\Matrix2\MuSoenMath.h(332,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'vec1x4' 왼쪽은 무시됩니다.
+E:\3Dprg\11주차\Matrix2\Matrix2\MuSoenMath.h(393,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'vec4' 왼쪽은 무시됩니다.
+  Matrix2.vcxproj -> E:\3Dprg\11주차\Matrix2\x64\Debug\Matrix2.exe
