@@ -1,16 +1,16 @@
 ﻿  main.cpp
-E:\3Dprg\6주차\spinning_star\spinning_star\main.cpp(109,69): warning C4244: '=': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\3Dprg\6주차\spinning_star\spinning_star\main.cpp(110,69): warning C4244: '=': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               T=float
           ]
-E:\3Dprg\6주차\spinning_star\spinning_star\main.cpp(110,68): warning C4244: '=': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\3Dprg\6주차\spinning_star\spinning_star\main.cpp(111,68): warning C4244: '=': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               T=float
           ]
-E:\3Dprg\6주차\spinning_star\spinning_star\main.cpp(168,26): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\3Dprg\6주차\spinning_star\spinning_star\main.cpp(182,26): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
-E:\3Dprg\6주차\spinning_star\spinning_star\main.cpp(187,26): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
-E:\3Dprg\6주차\spinning_star\spinning_star\main.cpp(263,19): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\3Dprg\6주차\spinning_star\spinning_star\main.cpp(169,26): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\3Dprg\6주차\spinning_star\spinning_star\main.cpp(183,26): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+E:\3Dprg\6주차\spinning_star\spinning_star\main.cpp(188,26): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+E:\3Dprg\6주차\spinning_star\spinning_star\main.cpp(271,19): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   spinning_star.vcxproj -> E:\3Dprg\6주차\spinning_star\x64\Debug\spinning_star.exe

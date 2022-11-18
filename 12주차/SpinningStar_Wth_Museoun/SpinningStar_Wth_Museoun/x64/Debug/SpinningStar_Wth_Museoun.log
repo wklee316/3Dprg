@@ -1,0 +1,16 @@
+﻿  main.cpp
+E:\3Dprg\12주차\SpinningStar_Wth_Museoun\SpinningStar_Wth_Museoun\MuSeounMath.h(107,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'mat3' 왼쪽은 무시됩니다.
+E:\3Dprg\12주차\SpinningStar_Wth_Museoun\SpinningStar_Wth_Museoun\MuSeounMath.h(89,53): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\3Dprg\12주차\SpinningStar_Wth_Museoun\SpinningStar_Wth_Museoun\MuSeounMath.h(197,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'mat4' 왼쪽은 무시됩니다.
+E:\3Dprg\12주차\SpinningStar_Wth_Museoun\SpinningStar_Wth_Museoun\MuSeounMath.h(180,53): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\3Dprg\12주차\SpinningStar_Wth_Museoun\SpinningStar_Wth_Museoun\MuSeounMath.h(239,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'vec1x3' 왼쪽은 무시됩니다.
+E:\3Dprg\12주차\SpinningStar_Wth_Museoun\SpinningStar_Wth_Museoun\MuSeounMath.h(301,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'vec3' 왼쪽은 무시됩니다.
+E:\3Dprg\12주차\SpinningStar_Wth_Museoun\SpinningStar_Wth_Museoun\MuSeounMath.h(342,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'vec1x4' 왼쪽은 무시됩니다.
+E:\3Dprg\12주차\SpinningStar_Wth_Museoun\SpinningStar_Wth_Museoun\MuSeounMath.h(403,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'vec4' 왼쪽은 무시됩니다.
+E:\3Dprg\12주차\SpinningStar_Wth_Museoun\SpinningStar_Wth_Museoun\main.cpp(105,66): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\3Dprg\12주차\SpinningStar_Wth_Museoun\SpinningStar_Wth_Museoun\main.cpp(106,65): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\3Dprg\12주차\SpinningStar_Wth_Museoun\SpinningStar_Wth_Museoun\main.cpp(135,26): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\3Dprg\12주차\SpinningStar_Wth_Museoun\SpinningStar_Wth_Museoun\main.cpp(152,26): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+E:\3Dprg\12주차\SpinningStar_Wth_Museoun\SpinningStar_Wth_Museoun\main.cpp(157,26): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+E:\3Dprg\12주차\SpinningStar_Wth_Museoun\SpinningStar_Wth_Museoun\main.cpp(232,19): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SpinningStar_Wth_Museoun.vcxproj -> E:\3Dprg\12주차\SpinningStar_Wth_Museoun\x64\Debug\SpinningStar_Wth_Museoun.exe
